@@ -20,6 +20,6 @@ install:
 # Delete hello
 .PHONY: clean
 clean:
-	rm -f $(OUPUT_FILE)
+	rm -f $(OUTPUT_FILE)
 	rm -f $(INSTALL_DIR)/*
 
